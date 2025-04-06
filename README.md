@@ -6,7 +6,7 @@
 
 ### 🚀 Live Demo
 
-[Click here to view the live site](https://your-demo-link.com)
+[Click here to view the live site](https://paban-blip.github.io/my-story-portal/)
 
 > Replace the above URL with your Netlify, GitHub Pages, or Vercel link.
 
