@@ -33,10 +33,3 @@
 2. They scroll down to a contact section with a **"Submit Your Story"** button.
 3. Clicking the button opens their default mail app with a pre-filled subject and body.
 4. Submitted stories are reviewed and showcased on the home grid in a book-cover card layout.
-
-## Folder Structure
-project/ │ ├── index.html 
-# Main HTML file ├── style.css        
-# Tailwind via CDN (optional custom CSS) ├── script.js        
-# JavaScript for DOM handling └── assets/ └── images/      
-# Placeholder or real story/project images
