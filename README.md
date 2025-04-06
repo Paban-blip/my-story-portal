@@ -1,6 +1,6 @@
-# Story Share - A Community Story Sharing Platform
+# My-Story-portal - A Community Story Sharing Platform
 
-**Story Share** is a responsive web application that allows users to share their personal stories with the world. Whether it's a life lesson, emotional moment, travel experience, or a creative piece, users can submit their stories directly through the platform, and selected entries will be showcased on the website.
+**my-story-portal** is a responsive web application that allows users to share their personal stories with the world. Whether it's a life lesson, emotional moment, travel experience, or a creative piece, users can submit their stories directly through the platform, and selected entries will be showcased on the website.
 
 ---
 
