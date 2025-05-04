@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -78,16 +78,16 @@
           <a href="#" class="block py-2 px-3 text-white bg-blue-700 rounded-sm md:bg-transparent md:text-blue-700 md:p-0 dark:text-white md:dark:text-blue-500" aria-current="page">Home</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">About</a>
+          <a class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" href="#showcase">Story's</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Services</a>
+          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Top Story</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Pricing</a>
+          <a class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent" href="#submitStory">Submit</a>
         </li>
         <li>
-          <a href="#" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
+          <a href="#contact" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent">Contact</a>
         </li>
       </ul>
     </div>
@@ -106,7 +106,7 @@
     <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
          <!-- Item 1 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
-            <img src="story.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
+            <img src="ostory.png" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="...">
         </div>
         <!-- Item 2 -->
         <div class="hidden duration-700 ease-in-out" data-carousel-item>
@@ -186,7 +186,7 @@
        </p>
     </div>
     
-    <div id="showcase" class="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-4 max-w-4xl mx-auto">
+    <div  id="showcase" class="grid grid-cols-1 sm:grid-cols-4 lg:grid-cols-5 md:grid-cols-4 grid-cols-2 gap-4 max-w-4xl mx-auto">
       <!-- Cards will load here -->
     </div>
     
@@ -197,10 +197,17 @@
         </div>
         <img id="projectImage" class="w-full h-64 object-cover rounded-xl mb-4" 
         />
+        
         <h3 id="projectTitle" class="text-2xl font-bold mb-2">
-            
         </h3>
-         <p id="projectDescription" class="text-gray-700 text-lg">
+        
+        <div class="flex gap-6 text-gray-500 items-center mt-4 mb-4">
+             <a id="English">
+                 <i id="backIcon" class="ri-arrow-go-back-line text-2xl"></i>
+             </a>
+        </div>
+        
+         <p id="projectDescription" class="text-yellow-600 text-lg">
                 
          </p>
 </section>
@@ -210,13 +217,9 @@
   
   <!-- This Is TOP STORY SECTION -->
 
-
-
-
-
   
   
-  <section class="py-16 px-4 bg-white text-gray-800 text-center">
+  <section class="py-16 px-4 bg-white text-gray-800 text-center" id="submitStory">
   <h2 class="text-3xl font-bold mb-4">Share Your Story</h2>
   <p class="text-lg text-gray-600 mb-6">Click below to submit your story via email.
     <br />
@@ -228,15 +231,9 @@
   </a>
 </section>
   
-  
-  
-  
-  
-  
-  
 
 
-<footer class="bg-white dark:bg-gray-900">
+<footer id="contact" class="bg-white dark:bg-gray-900">
     <div class="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
         <div class="md:flex md:justify-between">
           <div class="mb-6 md:mb-0">
